@@ -1,6 +1,6 @@
 const models                    = require ('../models/models')
 const {registerValidationUser}  = require('../Validations/User')
-const {loginValidationUser}     = require('../Validations/Login')
+const {loginValidationUser}     = require('../validations/VerifyToken')
 const bcryptjs                  = require('bcryptjs');
 const jwt                       = require('jsonwebtoken');
 require('dotenv/config');
